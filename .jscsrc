@@ -1,0 +1,11 @@
+{
+  "preset"                           : "crockford",
+  "esnext"                           : true,
+  "esprima"                          : "esprima-fb",
+  "esprimaOptions"                   : {"tolerant":false},
+  "maximumLineLength"                : 820,
+  "requireSpaceAfterBinaryOperators" : true,
+  "requireSpaceBeforeObjectValues"   : true,
+  "validateIndentation"              : 4,
+  "validateQuoteMarks"               : "'"
+}

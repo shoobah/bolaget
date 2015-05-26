@@ -3,7 +3,7 @@ var elastic = require('elasticsearch');
 
 var client = new elastic.Client({
     host: 'localhost:9200',
-    log: 'trace'
+    log: 'error'
 })
 
 var ba =  require('./data/butik-artikel.json');
